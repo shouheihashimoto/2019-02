@@ -1,6 +1,6 @@
 var who ='world';
 function sayhello(){
- alert('Hello,'+ who+ '!');
+ alert('Hello,'+ who + '!');
 }
 function taro(){
 who = '太郎';
