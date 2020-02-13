@@ -1,64 +1,47 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
- <title>Web開発の練習1</title>
- <link rel="stylesheet" href="mystyle.css"><!--この行を追加-->
- <!--<scrip src="myjs.js"></script>-->
- <script src="myjs.js"></script>
- <script src="ex6-1.js"></script>
- <script src="ex6-5.js"></script>
- <script src="ex6-6.js"></script>
- <script src="ex6-7.js"></script>
- <script src="ex6-8.js"></script>
- <script src="ex6-9.js"></script>
-</head>
-<body>
-<ol>
-   <li>ほげほげ</li>
-   <li>ほにゃらら</li>
-</ol>
-<!--<hi>イベントハンドラの練習</h1>
-<input type="button"value="ここをクリック"
-onclick="alert('Hello,Shouhei!');">-->
-<script src="myjs.js"></script>
-<h1>イベントハンドラの練習</h1>
-<input type="button"value="ここをクリック"
-onclick="alert('Hello,Shouhei');">
-<h1>変数の練習65</h1>
-  <input type="button" value="あいさつ" onclick="sayhello();">
-  <input type="button" value="太郎" onclick="taro();">
-  <input type="button" value="花子" onclick="hanako();">
-<h1>変数への代入66</h1>
-  <input type="button" value="あいさつ" onclick="sayhello66();">
-  <input type="button" value="太郎" onclick="taro66();gakita66();">
-  <input type="button" value="花子" onclick="hanako66();gakita66();">
-<h1>引数の練習</h1>
-   <input type="button" value="あいさつ"onclick="sayhello67();">
-   <input type="button" value="太郎"onclick="someone('太郎');">
-   <input type="button" value="花子"onclick="someone('花子');">
-<h1>JavaScriptによる変更の練習68</h1>
-   <input type="button" value="あいさつ" onclick="sayhello68();">
-   <input type="button" value="太郎" onclick="taro68();">
-   <input type="button" value="花子" onclick="hanako68();">
-   <p id="who68">world</p>
-<h1>JavaScriptによる変更の練習69</h1>   
-<div id="txt1">
-    <input type="button" value="テキストの変更"
-onclick="txtchange1();">
-城西大学</div>
-  
-<div id="image1">
-    <input type="button" value="画像を変更" 
-onclick="imgchange1();">
- <img src='https://www.josai.ac.jp/albums/abm00039990.svg'id="logo" alt="josai logo">
-</div>
-
- 
+  <html lang="ja">
+  <head>  
+    
+   <meta charset="UTF-8">
+    <link rel="stylesheet" href="josai.css">
+    <script src="manga.js"></script> 
+    
+    
+    </head>
+    
+    <body>
+      
+    
+    <h1>情報学特講Ⅱ後期末課題</h1><br>
+      
+    <h2>
+      私の好きな漫画のスライドショー
+      kojimamizuki参考
+      </h2>  <br>
+    
+      ・ 進撃の巨人<br>
+   ・ワンピース<br>
+     ・ナルト<br>
+     ・ダイヤのエース<br>
+     ・東京グール<br>
+     ・ケンガンアシュラ<br>
+・スラムダンク<br>
+    ・鬼滅の刃<br>
+     
+   
+<img src="./image/singeki.jpg" id="sd" width="320" height="240" alt="">
 <br>
 
-<input type="text" name="moji" size="30"
-value=""> </form>
-</body>
 
+<form name="slide">
+  
+  
+<input type="button" value="開始" onclick="slidesw()">
+
+    </form>
+    </body>  
+      
+      
 </html>
+
+   

@@ -1,0 +1,17 @@
+h1{background: linear-gradient(transparent 70%, #a7d6ff 70%);}
+
+h2:first-letter {
+font-size: 2em;
+color: #F0A050;
+}
+
+
+
+body {
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg,    red 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, red 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, red 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, red 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, red 10%, #85d8ce 90%);
+ }
